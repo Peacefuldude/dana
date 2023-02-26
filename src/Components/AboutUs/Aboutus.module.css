@@ -1,0 +1,92 @@
+.AboutUs_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav img {
+    width: 180px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h1 {
+    margin-left: 5%;
+}
+
+nav button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 16px;
+    color: var(--text_black);
+    align-items: center;
+    font-family: 'Yekan-bakh';
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    outline: 0;
+    border: none;
+    border-radius: 7px;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: all .2s ease-in;
+}
+
+nav button:hover {
+    background-color: var(--background_white_darker);
+}
+
+button img {
+    width: 32px;
+    padding: 0 5px;
+}
+
+.info_sec {
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info_op {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info_op img {
+    width: 54px;
+    height: 54px;
+    margin-right: 5%;
+}
+
+.map_img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: all 200ms ease-in;
+}
+
+.map_img:hover {
+    scale: 1.03;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+h3 {
+    width: 70%;
+    margin-bottom: 5%;
+}

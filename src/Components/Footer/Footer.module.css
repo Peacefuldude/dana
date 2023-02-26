@@ -1,0 +1,34 @@
+.realFooter_div {
+    display: flex;
+}
+
+.copyright_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.copyright_div a {
+    text-decoration: none;
+    color: var(--text_black);
+    transition: all 0.2s ease-in;
+}
+
+.copyright_div a:hover {
+    color: var(--text_blue);
+    transition: all 0.2s ease-in;
+}
+
+@media (max-width: 800px) {
+    .copyright_div {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .copyright_div {
+        font-size: 10px;
+    }
+}

@@ -1,13 +1,53 @@
+:root {
+  --background_white: rgb(240, 240, 240);
+  --background_white_lighter: rgb(255, 255, 255);
+  --background_white_darker: rgb(206, 206, 206);
+  --text_black: rgb(43, 43, 43);
+  --text_black_darker: rgb(0, 0, 0);
+  --text_blue: #005cb1;
+  --text_blue_darker: #032b50;
+  --text_green: #0faf52;
+  --text_green_darker: #076d32;
+  --text_red: #e94944;
+  --text_red_darker: #992f2c;
+}
+
+/* #0A1328 */
+/* AAAAAA */
+
+@font-face {
+	font-family: 'Yekan-bakh';
+	src:	url('./Fonts//YekanBakh-Bold/@font-face/Yekan-bakh.eot'), /* IE9 Compat Modes */
+			url('./Fonts//YekanBakh-Bold/@font-face/Yekan-bakh.woff2') format('woff2'), /* Modern Browsers */
+			url('./Fonts/YekanBakh-Bold/@font-face/Yekan-bakh.woff') format('woff'), /* Modern Browsers */
+			url('./Fonts/YekanBakh-Bold/@font-face/Yekan-bakh.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+
 body {
+  scroll-behavior: smooth;
+  padding: 0 5%;
+  background-color: var(--background_white);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	font-family: 'Yekan-bakh';
+  /* background-color: var(--background_black); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0 3%;
+  }
 }

@@ -1,0 +1,115 @@
+.fullpage_container {
+    overflow-x: hidden;
+}
+
+/* navbar section */
+.Navbar_section {
+    width: 100%;
+    margin-top: 2%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav img {
+    width: 180px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h1 {
+    margin-left: 5%;
+}
+
+nav button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 16px;
+    color: var(--text_black);
+    align-items: center;
+    font-family: 'Yekan-bakh';
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    outline: 0;
+    border: none;
+    border-radius: 7px;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: all .2s ease-in;
+}
+
+nav button:hover {
+    background-color: var(--background_white_darker);
+}
+
+button img {
+    width: 32px;
+    padding: 0 5px;
+}
+
+.notActive_sec {
+    display: none;
+    visibility: hidden;
+}
+
+/* Options section */
+.Ops_notActive {
+    display: none;
+}
+
+.App_Ops_sec {
+    padding: 1% 4% 0% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App_Ops_sec h1 {
+    color: var(--text_black);
+}
+
+.App_Ops_sec div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.App_Ops_sec button {
+    padding: 2%;
+    border: none;
+    outline: none;
+    transition: all 100ms ease-in;
+    cursor: pointer;
+}
+
+.App_Ops_sec button:hover {
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: var(--text_blue);
+}
+
+.App_Ops_sec button img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Fullpage styles */
+.Landing_section {
+    padding: 1% 4% 0% 4%;
+}
+
+.Footer_sections {
+    padding: 5% 5% 0% 5%;
+}

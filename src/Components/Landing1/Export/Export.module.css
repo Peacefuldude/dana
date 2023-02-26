@@ -1,0 +1,90 @@
+.Pdfsection_Container {
+    width: 100%;
+    padding: 25px;
+    background-color: var(--background_white_lighter);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 128px;
+}
+
+.pdf_end_sec {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pdf_end_sec img {
+    width: 300px;
+    margin-bottom: 5%;
+}
+
+.pdf_end_sec p {
+    /* border: 2px black solid; */
+
+}
+
+.pdf_end_sec div {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end_sec_div {
+    width: 100%;
+    margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdf_end_sec section {
+    width: 12rem;
+}
+
+.com_data {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.com_data section {
+    width: 50%;
+}
+
+.com_data img {
+    width: 280px;
+}
+
+.test {
+    width: 30rem;
+    height: 10rem;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--background_white);
+    border-radius: 15px;
+    margin: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.test h1 {
+    font-size: 28px;
+    margin: 0;
+}

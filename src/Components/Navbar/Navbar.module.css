@@ -1,0 +1,53 @@
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav img {
+    width: 180px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h1 {
+    margin-left: 5%;
+}
+
+nav button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 16px;
+    color: var(--text_black);
+    align-items: center;
+    font-family: 'Yekan-bakh';
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    outline: 0;
+    border: none;
+    border-radius: 7px;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    transition: all .2s ease-in;
+}
+
+nav button:hover {
+    background-color: var(--background_white_darker);
+}
+
+button img {
+    width: 32px;
+    padding: 0 5px;
+}
+
+@media (max-width: 450px) {
+    
+    
+}
